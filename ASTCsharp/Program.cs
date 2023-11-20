@@ -10,9 +10,10 @@ class Program
         Console.WriteLine(\'Hello, Roslyn!\');
     }
 
-    void test()
+    int test()
     {
         int i = 1+1;
+        return i;
     }
 }
 ";
